@@ -11,33 +11,46 @@
 /* Globales */
 /* Nunca debe de faltar */
 html{
+    /* Sirve para corregir problemas con cajas */
     box-sizing: border-box;
+    /* Nos srive para poder utilizar 1rem = 10px */
     font-size: 62.5%;
 }
-
+/* Nos ayudan a solucionar problemas con las cajas */
 *,*:before, *:after{
     box-sizing: inherit;
 }
 
 /* Globales */
 body{
+    /* Fondo al documento */
     background-color: var(--primario);
+    /* Tamaño de fuente */
     font-size: 1.6rem;
+    /* Interlineado */
     line-height: 1.5;
 }
+/* Parrafos general */
 p{
+    /* Tamaño de fuente */
     font-size: 1.8rem;
+    /* Font-family */
     font-family: Arial, Helvetica, sans-serif;
+    /* Color de letra */
     color: var(--withe);
 }
+/* Quitarle estilos a las anclas */
 a{
     text-decoration: none;
 }
 img{
+    /* Ancho maximo */
     max-width: 100%;
 }
 .contenedor{
+    /* ¿? */
     max-width: 120rem;
+    /* Centrar contenedor */
     margin: 0 auto;
 }
 h1, h2, h3{
@@ -78,6 +91,4 @@ h3{
     font-family: var(--fontPrincipal);
     color: var(--withe);
     font-size: 3rem;
-
-
 }
