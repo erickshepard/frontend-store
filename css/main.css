@@ -92,3 +92,7 @@ h3{
     color: var(--withe);
     font-size: 3rem;
 }
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+  color: var(--secundario);
+}
